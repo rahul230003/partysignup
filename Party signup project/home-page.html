@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active"><img src="logo.png" alt=""></a>
+    <a href="index.html" class="ele">ADVERTISER</a>
+    <a href="member.html" class="ele">MEMBER</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+<div class="container-fluid p-0">
+    <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active boat">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">HOST ALL KINDS OF PARTIES</h2>
+                  <p class="animated fadeInRight">Want To Host A Party?<br>We're Here For You! We Host All Types Of Parties</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Download Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item sea">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">FREE INVITES</h2>
+                  <p class="animated fadeInRight">Want to send unlimited invites? Looking for a DJ?<br>Add a virtual entertainer..</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Download Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item river">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">WANT TO IMPRESS EVERYONE</h2>
+                  <p class="animated fadeInRight">Invite your favorite celebrity in the party<br>As we have Quite a few celebs onto our list</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Download Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="carousel-item time">
+          <div class="container h-100 d-md-block">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                <div class="caption animated fadeIn">
+                  <h2 class="animated fadeInLeft">BECOME A MEMBER</h2>
+                  <p class="animated fadeInRight">Want to join our member community!<br>
+                    Become a member and come on-board with us</p>
+                  <a class="animated fadeInUp btn delicious-btn" href="#">Download Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</div>
+<section class="section-achievement" id="feature" data-aos="fade-in"  data-aos-duration="2000"  data-aos-once="true">
+    <div class="row achievement-section">
+        
+    <div class="col span-1-of-4 box">
+        <ion-icon class="ionicon" name="balloon-outline"></ion-icon>
+        <h3>1,000+ Parties</h3>
+        <p>Events Per Month</p>
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="ionicon" name="calendar-clear-outline"></ion-icon>                    
+            <h3>10,000+ Invites</h3>
+            <p>Invites Sent</p>
+
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="ionicon" name="star-outline"></ion-icon>                    
+            <h3>4.6 Rating</h3>
+            <p>Highly Rated</p>
+        </div>
+        <div class="col span-1-of-4 box">
+            <ion-icon class="ionicon" name="people-outline"></ion-icon>
+            <h3>20XX</h3>
+            <p>Founded In</p>
+        </div>
+    </div>
+
+</section>
+<hr>
+<section class="section-features" id="feature" data-aos="zoom-in"  data-aos-duration="3000"  data-aos-once="true">
+    <div class="row">
+       <div class="col span-1-of-3 box contain">
+            <h3>Effortless Designs</h3>
+            <p>Create a beautiful invitation and share it to all your guests.
+                Add your own video clip or photo to any template for an instant design.</p>
+
+        </div>
+        <div class="col span-1-of-3 box contain">
+            <h3>Lightning-Fast RSVPs</h3>
+            <p> Need to know who’s coming quickly?
+                Hosts that send invites via text get responses 30% faster and have a 25% higher response rate.</p>
+
+        </div>
+        <div class="col span-1-of-3 box contain">
+            <h3>Instant Event Updates</h3>
+            <p>  Worried about details changing?
+                Send your guests an instant update or reminder at any time.</p>
+
+        </div>
+        
+    </div>
+
+</section>
+<section class="How-it-works-section">
+        <h3 class="hiwh">How It Works?</h3>
+      
+</section>
+
+<hr>
+
+<h3 class="htest">What Our Client's Says</h3>
+
+<hr>
+<section class="section-testimonial">
+           
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="testimonialBox">
+                  <img class="quote" src="left-quote.png" alt="quote">
+                  <div class="content">
+                      <p>It's a great app to organize a party or event effortlessly. From sending invites to arranging venue, food and entertainment</p>
+
+                  </div>
+                  <div class="details">
+                    <div class="imgbx">
+                    </div>
+                     <h3>Someone Famous<br><span>Creative designer</span></h3>
+                  </div>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>This is a great app. I myself being a party freak, I loved how it helps to organize a great event with just few clicks. It's great.</p>
+
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Samiksha Paria</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>A great app for party invitations! A good approach that helps you to sketch and schedule a party, along with the guests list and location</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Swagatalakshmi Saha</span></h3>
+                </div>
+           </div>
+          
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Amazing app with multiple features. I felt so organised and stress-free while using this app. I eould recommend trying this app for party and event planning.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Kiran Kanwar</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Wonderful app with an innovative approach in event planning . Easy to use and it has multiple features.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Sujoy Chandra</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>The app is quite interesting and a unique concept. It makes the work easier to invite people and maintain record for each.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>RASHI AGARWAL</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>A very different kind of platform which saves loads of time and effort while sending invitations and planning a party.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Saloni Divya</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>A very different kind of platform which saves loads of time and effort while sending invitations and planning a party.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Saloni Divya</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>One of the most hassle free way to organise a party. Simple, elegant and fast in itself. Really enjoyed using it.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Manvi Soni</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Totally different concept, it's easy to use You can organise parties, events with your friends, colleagues. I enjoyed of using it.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Saurav Kumar</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Really an useful app. It's saved my lot of time, while sending an invitation for my office inauguration event.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Vishal Radadiya</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>One of the easiest ways of hosting and inviting people over to the parties. Can be really handy when needed.</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Vicky Arora</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>It's a great aap for inviting earlier to our friends and colleagues and get reminder fixed for upcoming events, very useful</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Shreyansh Gupta</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Fabulous app, helps throw parties, send invites, connect..awesome</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Rishabh Singhal</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>Looking forward to have lots of parties this summer... Very easy to use app</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Asha Chadha</span></h3>
+                </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="testimonialBox">
+                <img class="quote" src="left-quote.png" alt="quote">
+                <div class="content">
+                    <p>amazing app and among the must needed too</p>
+                </div>
+                <div class="details">
+                    <div class="imgbx">
+                    </div>
+                   <h3>User<br><span>Jatin Garg</span></h3>
+                </div>
+           </div>
+        </div>
+     </div>
+</section>
+<section class="section-Download" id="downloadnow">
+    <h3 class="downh3">Download On The App Store Or Google Play</h3>  
+   <a href="#"  ><img data-aos="slide-right"  data-aos-duration="2000"  data-aos-once="true" class="download" src="google-play.png" alt="download"></a>
+   <a href="#" ><img data-aos="slide-left"  data-aos-duration="2000"  data-aos-once="true" class="download" src="app-store.png" alt="download"></a>
+   
+</section> 
+<footer class="footer">
+    <div class="container">
+      <div class="row1">
+        <div class="footer-col">
+          <h4>Jewel Studio</h4>
+          <ul>
+            <li><a href="https://www.jewelstudio.co/">about us</a></li>
+            <li><a href="https://www.jewelstudio.co/">our services</a></li>
+            <li><a href="https://www.jewelstudio.co/privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="https://www.jewelstudio.co/termsofservice.html">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="faq.html">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="#">What is Party Sign-up</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="#">Download Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+       function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    
+$(document).ready(function(){
+   
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 510) {
+          $(".navbar").css("background" , "#01404C");
+          $("header").css("position","fixed");
+        }
+   
+        else{
+            $("header").css("position","absolute");
+            $(".navbar").css("background" , "");  	
+        }
+    })
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+      },
+      loop:true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+    const accordion =document.getElementsByClassName('contentbx');
+    for(i=0;i<accordion.length;i++){
+      if(i==0 || i==1)
+      {
+        accordion[i].addEventListener('click',function(){
+        this.classList.toggle('active');
+      })
+    }else{
+      accordion[i].addEventListener('click',function(){
+        this.classList.toggle('smalltext');
+      });
+    }    
+    
+    }
+    AOS.init();
+    
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1500, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+     
+  });
+  
+
+
+
+  
+  
+
+
+    </script>
+    </body>
+</html>

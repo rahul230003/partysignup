@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background: #eee;
+  font-family: 'Poppins', sans-serif;
+}  
+#carousel .carousel-item.boat{
+  background-image:url("Realestate.jpg");
+}
+#carousel .carousel-item.sea{
+  background-image:url("lifeinsurance.jpg");
+}
+#carousel .carousel-item.river{
+  background-image:url("daycare.jpg");
+}
+#carousel .carousel-item.time{
+    background-image:url("fundraising.jpg");
+  }
+#carousel .carousel-item{
+  height:100vh;
+  width:100%;
+  min-height:350px;
+  background:no-repeat center center scroll;
+  background-size:cover;
+}
+#carousel .carousel-inner .carousel-item{
+  transition:-webkit-transform 2s ease;
+  transition:transform 2s ease;
+  transition:transform 2s ease, -webkit-transform 2s ease;
+}
+#carousel .carousel-item .caption{
+  background:rgba(0,0,0,0.5);
+  padding:40px;
+  color:white;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+#carousel .caption h2{
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+#carousel .caption p{
+  animation-duration: 1s;
+  animation-delay: 2.2s;
+}
+
+#carousel .caption a{
+  animation-duration: 1s;
+  animation-delay: 2.4s;
+}
+.delicious-btn{
+  display: inline-block;
+  min-width:160px;
+  height:60px;
+  color:#fff;
+  border:none;
+  border-left:3px solid #1c8314;
+  border-radius: 0;
+  padding:0 30px;
+  font-size:16px;
+  line-height:58px;
+  font-weight:600;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  background:#40ba37;
+}
+.delicious-btn:hover,
+.delicious-btn:active,
+.delicious-btn:focus{
+  font-size:16px;
+  font-weight: 600;
+  color:#fff;
+  background:#1c8314;
+  border-color:#40ba37
+}
+
+.swiper-container {
+    width: 400px;
+    height: 200px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    background: inherit;
+    text-transform: uppercase;
+    font-family: Poppins;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .whyh2{
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-top: 95px;
+      margin-left: 120px;
+  }
+  .benefits{
+    margin-top: 100px;
+    width: 100%; 
+    margin-bottom: 100px;
+
+  }
+  .benefits div{
+      margin-left: 20px;
+    }
+  .benefits-text{
+      width: 300px;
+      height: 120px;
+  }
+  .benefits-text h2,
+  .benefits-text p{
+    font-size: 14px;
+    width: 230px;
+  }
+  .benefits div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .whath2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 95px;
+    text-align: center;
+  }
+  .benefits-text-1{
+      margin-left: 20px;
+  }
+
+
+  .testimonials{
+    min-height: 50vh;
+    background-color: #eee;
+    width: 100%;
+    padding:100px 15px;
+  }
+  
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  .testimonials .title{
+    margin-bottom:10px;
+    color: #000;
+  }
+  .testimonials .title h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .testimonials .slider{
+   border:1px solid #333333;
+   max-width: 100%;
+   margin: auto;
+   text-align: center;
+   padding:30px;
+   color: #000;
+   box-shadow: 3px 5px 10px 5px;
+  }
+  .testimonials .slider .slide{
+    display: none;
+  }
+  .testimonials .slider .slide.active{
+    
+    display: block;
+    animation: slide 1s ease;
+  }
+  @keyframes slide{
+    0%{
+      opacity:0;
+      transform: translateX(-15px);
+    }
+    100%{
+       opacity:1;
+      transform: translateX(0px);	
+    }
+  }
+  .testimonials .slider p{
+    font-size:18px;
+    color:#000;
+    word-spacing: 2px;
+
+  }
+  .testimonials .slider .client-info h3{
+    font-weight: bold;
+    color:#000;
+    font-size:18px;
+    margin:30px 0 10px;
+  }
+  .testimonials .slider .client-info span{
+    display: block;
+    font-size:16px;
+    color:#11bead;
+  }
+  .testimonials .slider-indicator{
+    text-align: center;
+    padding-top:30px;
+  }
+  .testimonials .slider-indicator img{
+    max-height:80px;
+    max-width:80px;
+    border-radius:50%;
+    display: inline-block;
+    margin:0 8px;
+    opacity:0.2;
+    border:4px solid #fff;
+    cursor: pointer;
+    transition: opacity 1s ease;
+  }
+  .testimonials .slider-indicator img.active{
+    opacity:1;
+  }
+ 
+.convinced h2{
+   float: left;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    align-self: center;
+}
+.convinced button{
+    background: #f8c803;
+    padding: 20px;
+    border-radius: 25%;
+    margin-left: 20px;
+    border: 5px solid #f8c803;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    height: 100px;
+    width: 100%;
+    border: 2px solid #F8C803;
+    margin-top: 70px;
+}
+footer p{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-top: 4%;
+}
+@media(max-width:795px) {
+  .convinced h2{
+    margin-left:200px;
+  }
+}
+@media(max-width:507px) {
+  .convinced h2{
+    margin-left:80px;
+  }
+}
+@media(max-width:370px) {
+  .convinced h2{
+    margin-left:20px;
+  }
+}
